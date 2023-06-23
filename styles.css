@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+ width: 10%;
+   
+}
+
+
+
+.container {
+    height: 260px;
+    max-width: 500px;
+    background-color:ffff;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.container .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 1px solid  rgba(50, 50, 93, 0.25); 
+    background-color: #601df8;
+    padding: 10px;
+    border-radius: 6px 6px 0px 0px;
+    height: 60px;
+}
+
+.container .info > h1 {
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+   
+}
+
+
+.container .wrapper {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px;
+   gap: 20px;
+   border-bottom: 1px solid  rgba(50, 50, 93, 0.25);
+}
+
+
+.container .wrapper > img {
+    width: 60px;
+    
+}
+
+.container .wrapper .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .wrapper .inputs .input {
+    border: 1px solid rgba(50, 50, 93, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.24) 0px 1px 1px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+    gap: 10px;
+    
+}
+
+.submit-btn {
+    border: 1px solid rgba(50, 50, 93, 0.1);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.24) 0px 1px 1px;
+    background-color: #fff;
+    padding: 5px 20px;
+    font-family: 'Nunito', sans-serif;
+ 
+}
+
+
+.refresh-btn{
+
+    border: 1px solid rgba(50, 50, 93, 0.1);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px, rgba(0, 0, 0, 0.24) 0px 1px 1px;
+    background-color: #601df8;
+    color: #ffffff;
+    padding: 5px 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.submit-btn:hover{
+    background-color:  rgba(50, 50, 93, 0.1);
+}
+
+
+
+
+
+
+
+@media (max-width: 500px ) {
+
+ .container {
+    width:290px;
+ }
+
+
+  .wrapper {
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  .wrapper >img {
+    display: none;
+  }
+ 
+
+  .buttons {
+   padding-bottom: 30px;
+    
+  }
+}
+
+
