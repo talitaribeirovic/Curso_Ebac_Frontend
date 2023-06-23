@@ -17,12 +17,12 @@
 #### Atividades Realizadas
 
 
-|  #  | Project| Status  |🚀 Skills|
-| :-: | --------- | ------ | -------|
-| 01  | Exercício Git | ✅ | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) |
-| 02  | Exercício Html + CSS portal de notícias|✅| ![badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)|
-| 03  | Exercício Html  Formulário de Cadastro |✅|   |
-| 04  | Exercício Html + CSS + JS - Validação de Formulário| ✅ | ![badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) |
+|  #  | Project| Status  | Links |
+| :-: | --------- | ------ | ------|
+| 01  | Exercício Git | ✅ |
+| 02  | Exercício Html + CSS portal de notícias|✅| 
+| 03  | Exercício Html  Formulário de Cadastro |✅| 
+| 04  | Exercício Html + CSS + JS - Validação de Formulário| ✅ |
 
 
 
